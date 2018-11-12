@@ -1,0 +1,189 @@
+.header {
+    height: 75px;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#menu {
+    float: left;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+    background: white;
+    color: blue;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#menu:link {
+    text-decoration: none;
+}
+
+#menu:visited {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    text-decoration: none;
+}
+
+#menu:active {
+    text-decoration: none;
+}
+
+.header h1 {
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer1 {
+    margin-left : 50px;
+    padding-top: 1px;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+
+
+
+.depot-a-container {
+    padding: 10px;
+}
+
+.titre-page {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 20px;
+}
+
+hr {
+    color: lightgrey;
+    opacity: 0.5;
+}
+
+.votre-annonce-container {
+    border: 1px solid grey;
+}
+
+.titre-form {
+    background: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.5px;
+    padding: 10px;
+}
+
+.localisation-container {
+    border: 1px solid grey;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.input-txt {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.group {
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    height: 100px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.btn-valider {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.btn-valider:hover {
+    opacity: 0.6;
+}
+
+.btn-photo {
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-style: dashed;
+    background: lightgrey;
+}
+
+.btn-photo a {
+    position: relative;
+    left: 18px;
+    top: 15px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+@media (min-width:971px) {
+    .depot-a-container {
+        padding: 10px;
+        width: 60%;
+        margin-left: 20%;
+    }
+}

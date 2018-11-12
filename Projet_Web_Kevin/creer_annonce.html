@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Vue d'une annonce</title>
+        <link rel="stylesheet" href="style2.css"/>
+        <link rel="icon" type="image/png" href="favicon2.png"/>
+    </head>
+    <body>
+        <div class="header">
+            <a id="menu" href="creer_annonce.html">Menu</a>
+            <h1>eMusic</h1>
+        </div>
+        <div class="depot-a-container">
+            <h1 class="titre-page">Déposer une annonce</h1>
+            <hr><br>
+            <form action="#" method="post">
+                <div class="votre-annonce-container">
+                    <div class="titre-form">
+                        Votre annonce
+                    </div>
+                    <div class="group">
+                        <div class="categorie">
+                            <h2>Catégorie</h2>
+                            <select class="formulaire">
+                                <option value="Choisissez une catégorie" selected>Choisissez une catégorie</option>
+                                <option value="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="type">
+                            <h2>Type d'annonce</h2>
+                            <input type="radio" name="type" value="Offre" checked="checked"> Offre
+                            <input type="radio" name="type" value="Demande"> Demande
+                        </div>
+                        <br>
+                        <div class="titre-annonce">
+                            <h2>Titre de l'annonce</h2>
+                            <input class="input-txt" type="text" name="titre-annonce">
+                        </div>
+                        <br>
+                        <div class="desc-annonce">
+                            <h2>Texte de l'annonce</h2>
+                            <textarea name="desc-annonce"></textarea>
+                        </div>
+                        <br>
+                        <div class="prix">
+                            <h2>Prix</h2>
+                            <input class="input-txt" type="text" name="prix">
+                        </div>
+                        <br>
+                        <div class="ajout-photo">
+                            <h2>Photos</h2>
+                            <div class="btn-photo">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="localisation-container">
+                    <div class="titre-form">
+                        Localisation
+                    </div>
+                    <div class="group">
+                        <div class="ville">
+                            <h2>Ville</h2>
+                            <input class="input-txt" type="text" name="vile">
+                        </div>
+                        <br>
+                        <div class="adresse">
+                            <h2>Adresse</h2>
+                            <input class="input-txt" type="text" name="adresse">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="validation">
+                    <input class="btn-valider" type="submit" value="Valider">
+                </div>
+                <br>
+            </form>
+        </div>
+    </body>
+    <footer class="site-footer">
+        <div id="footer1"><p>eMusic - 2018</p></div>
+    </footer>
+</html>
